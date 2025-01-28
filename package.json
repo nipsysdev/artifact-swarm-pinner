@@ -1,0 +1,26 @@
+{
+  "name": "artifact-swarm-pinner",
+  "version": "1.0.0",
+  "description": "A small Node script to download and pin a directory to SWARM from a GitHub artifact",
+  "main": "index.js",
+  "private": true,
+  "packageManager": "pnpm@9.15.0",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nipsysdev/artifact-swarm-pinner.git"
+  },
+  "author": "Xavier Saliniere",
+  "license": "GPL-3.0-or-later",
+  "scripts": {
+    "start": "node --env-file=.env index.js"
+  },
+  "dependencies": {
+    "@ethereumjs/wallet": "^2.0.4",
+    "@ethersphere/bee-js": "^8.3.1",
+    "@octokit/core": "^6.1.3",
+    "axios": "^1.7.9",
+    "cli-progress": "^3.12.0",
+    "unzipper": "^0.12.3"
+  }
+}

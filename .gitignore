@@ -1,0 +1,4 @@
+.idea
+.env
+artifact*
+node_modules/
