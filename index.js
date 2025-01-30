@@ -81,7 +81,7 @@ async function upload() {
     redundancyLevel: undefined
   })
   // noinspection HttpUrlsUsage
-  console.log(`Uploading done: http://${bee.url}/bzz/${reference}/`)
+  console.log(`Uploading done: ${bee.url}/bzz/${reference}/`)
   console.log(`Ref: ${reference}`)
 
   console.log('Waiting for file chunks to be synced on Swarm network...')
